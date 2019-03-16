@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+}
+
+li {
+    display:inline;
+    width: 100px;
+    float: right;
+
+}
+
+li.active{
+
+    color: cyan;
+
+
+}

@@ -3,44 +3,45 @@ body {
 
 }
 
-.listOfLinksClass li{
+.listOfLinksClass li {
     width: 100px;
     float: left;
 }
-li a.active{
+
+li a.active {
     color: red;
 }
 
 .listOfLinksClass {
     background-color: darkgray;
     list-style-type: none;
-    margin: 10px;
-    color: white;
+    padding: 10px 10px 30px 10px;
     text-align: center;
-    text-decoration: none;
-    padding: 10px 10px 30px 10px
+    margin-left: auto;
+    /*margin-right: auto;*/
+    width: 500px;
 }
-
 
 li a:hover {
     background-color: orange;
 }
-#listOfLinksId{
-    /*margin: 0px 0px 0px 1000px;*/
+
+#listOfLinksId {
     position: static;
 
 }
+
 /*////////////////////////////*/
 /*////////////////////////////*/
 /*////////////////////////////*/
 
-#himHerId{
-    position: fixed;
+#himHerId {
+    position: static;
     right: 0px;
     left: 0px;
 }
 
-.himHerClass{
+.himHerClass {
     background-color: yellow;
     list-style-type: none;
     padding: 10px 10px 30px 10px;
@@ -50,13 +51,29 @@ li a:hover {
     width: 200px;
 }
 
-
-.himHerClass li{
+.himHerClass li {
     width: 100px;
     float: left;
 }
 
-#everything{
+#everything {
+
+}
+
+.boxed {
+    height: 1000px;
+    background-color: pink;
+
+
+}
+
+#insideBox{
+    background-color: navajowhite;
+    margin: auto;
+    width: 1080px;
+    position: relative;
+    border-radius: 25px;
+
 
 }
 

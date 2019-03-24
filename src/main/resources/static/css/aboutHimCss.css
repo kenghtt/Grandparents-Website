@@ -1,0 +1,22 @@
+#yearsId {
+    background : transparent;
+    /*padding-top: 40px;*/
+}
+
+.yearTextBoxId{
+
+    /*background : white;*/
+    background:rgba(255,255,255, 0.5);
+    margin-left: 200px;
+    margin-right: 200px;
+    /*opacity: 0.5;*/
+    position:relative;
+
+}
+
+.infoText{
+    color: black;
+    opacity: 1 !important;
+    font-size: 20px;
+
+}

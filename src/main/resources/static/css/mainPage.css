@@ -93,8 +93,8 @@ li a:hover {
     /*transition       : all 0.3s ease;*/
 /*}*/
 .btnLinks:hover {
-    background-color : transparent;
-    color            : white;
+    background-color : white;
+    color            : black;
 
 }
 .btnLinks:active {
@@ -104,7 +104,7 @@ li a:hover {
 .btnLinks{
     overflow         : hidden;
     /*background-color : transparent;*/
-    background-color : white;
+    background-color : transparent;
 
     border           : 2px solid white;
     transition       : all 0.3s ease;
@@ -116,7 +116,7 @@ li a:hover {
     font-weight    : bold;
     text-transform : uppercase;
     text-align		 : center;
-    color          : black;
+    color          : white;
     letter-spacing : 1px;
     /*border         : none;*/
     cursor         : pointer;

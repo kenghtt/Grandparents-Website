@@ -1,6 +1,8 @@
 #yearsId {
     background : transparent;
+    min-width:1000px ;
     /*padding-top: 40px;*/
+    padding-bottom: 1%;
 }
 
 .yearTextBoxId{
@@ -9,13 +11,14 @@
     background:rgba(255,255,255, 0.7);
     margin-left: 200px;
     margin-right: 200px;
+
     /*opacity: 0.5;*/
     position:relative;
 
 }
 
 #textBoxBorder{
-
+    min-width: 1000px;
     border-style: groove;
 
 }
